@@ -11,7 +11,7 @@ var boolean1 = true; // boolean data type
 var a; // undefined variable
 */
 
-var a = 10;
+var a = 750;
 var b = 20;
 
 if(a < b){
