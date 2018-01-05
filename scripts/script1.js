@@ -1,10 +1,28 @@
-/* For loops */
+/* functions */
+
+function sayHello(){
+    document.write("hello");
+}
+
+function calArea(w,h){
+    var area = w * h;
+    document.write ("Area = " + area);
+}
+
+calArea(5,6,7);
+
+/* For loops
 var count = 0;
 
-for(count = 0; count < 10; count = count + .5) {
+for(count = 0; count < 10; count = count + 0.2) {
     document.write(count + "<br>");
 }
 
+for(count = 0; count < 100; count = count + 2) {
+    document.write(count / 10 + "<br>");
+} 
+
+ */
 
 /* While Loops
 
