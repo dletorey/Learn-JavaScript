@@ -1,4 +1,4 @@
-/* functions */
+/* functions
 
 function sayHello(){
     document.write("hello");
@@ -10,7 +10,9 @@ function calArea(w,h){
 }
 
 calArea(5,6,7);
+ */
 
+ 
 /* For loops
 var count = 0;
 
