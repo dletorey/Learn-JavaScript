@@ -3,7 +3,7 @@
 var count = 0;
 
 while (count < 10) {
-    document.write(count + " Dave");
+    document.write(count + " Dave<br>");
     count++;
 }
 
