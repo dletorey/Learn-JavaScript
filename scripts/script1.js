@@ -1,3 +1,14 @@
+/* Loops */
+
+var count = 0;
+
+while (count < 10) {
+    document.write(count + " Dave");
+    count++;
+}
+
+/* Switches
+
 var fruit = "apple";
 
 switch(fruit) {
@@ -13,6 +24,7 @@ switch(fruit) {
     default:
         document.write("Fruit is not available");
 }
+*/
 
 /*
 var a = 1;
