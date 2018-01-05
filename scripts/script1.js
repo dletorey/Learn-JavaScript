@@ -1,3 +1,19 @@
+var fruit = "apple";
+
+switch(fruit) {
+    case "apple":
+        document.write("apple is £2");
+        break;
+    case "banana":
+        document.write("banana is £4");
+        break;
+    case "orange":
+        document.write("Orange is £3");
+        break;
+    default:
+        document.write("Fruit is not available");
+}
+
 /*
 var a = 1;
 var b = 2;
@@ -9,12 +25,12 @@ var number = 1; // number data type
 var boolean = false; // boolean data type
 var boolean1 = true; // boolean data type
 var a; // undefined variable
-*/
+
 
 var a = 20;
 var b = "20";
 
-/*
+
 if(a < b){
     var result = a + b;
     document.write("The result of a and b is: ", result);
@@ -22,7 +38,7 @@ if(a < b){
     var result = a - b;
     document.write("The result of a less b is: ", result);
 }
-*/
+
 
 if(a === b){
     alert("they are equal");
@@ -30,3 +46,5 @@ if(a === b){
     alert("they are not equal");
 }
 document.write(a);
+
+*/
