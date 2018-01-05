@@ -7,6 +7,11 @@ while (count < 10) {
     count++;
 }
 
+do {
+    document.write(count + "This is a do while loop<br>");
+    count++;
+} while (count < 20);
+
 /* Switches
 
 var fruit = "apple";
