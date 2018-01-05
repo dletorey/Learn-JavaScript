@@ -10,3 +10,8 @@ studentName[4] = "Oli";
 
 var teacherName = ["kate", "nate", "marta", "jack", "mark"];
 document.write(teacherName[0]);
+
+var newArray = Array(5);
+
+// teacherName.length();
+document.write(teacherName.length);
