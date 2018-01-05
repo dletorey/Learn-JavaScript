@@ -1,4 +1,12 @@
-/* Loops */
+/* For loops */
+var count = 0;
+
+for(count = 0; count < 10; count = count + .5) {
+    document.write(count + "<br>");
+}
+
+
+/* While Loops
 
 var count = 0;
 
@@ -11,7 +19,7 @@ do {
     document.write(count + "This is a do while loop<br>");
     count++;
 } while (count < 20);
-
+ */
 /* Switches
 
 var fruit = "apple";
